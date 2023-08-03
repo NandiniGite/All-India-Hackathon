@@ -1,0 +1,40 @@
+ /* CSS for the main container */
+.main {
+    text-align: center;
+}
+
+/* CSS for the header */
+.header {
+    font-size: 32px;
+    color: purple;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    padding: 30px;
+}
+
+/* CSS for the quote */
+.quote {
+    font-size: 18px;
+    color: black;
+    font-style: italic;
+}
+@media (max-width: 768px) {
+    .header {
+        font-size: 20px;
+    }
+
+    .quote {
+        font-size: 16px;
+    }
+}
+
+/* Responsive styles for larger screens (e.g., tablets and desktops) */
+@media (min-width: 769px) {
+    .header {
+        font-size: 28px;
+    }
+
+    .quote {
+        font-size: 20px;
+    }
+}
